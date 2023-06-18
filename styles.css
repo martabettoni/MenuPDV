@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #199797;
+}
+
+#banner {
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 17px 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+#logo {
+    width: 340px;
+}
+
+#main-body {
+    width: 310px;
+    background-color: #fff;
+    padding: 12px 10px;
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+.accordion-button {
+    margin: 8px 0;
+    font-size: 1.5rem;
+    color: #55555E;
+    font-family: 'Sofia', cursive;
+   
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+    color: #55555E;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.accordion-button:active {
+    color: #55555E;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.accordion-button:after { 
+  
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%235a504d'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.accordion-body {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
+    margin-right: 10px;
+    color: #55555E;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -15px;
+}
+
+ul p {
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-align: justify;
+    text-justify: auto;
+}
+
+li {
+    margin-bottom: 7px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    width: 90%;
+}
+
+
+
+
